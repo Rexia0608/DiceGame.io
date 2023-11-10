@@ -1,0 +1,32 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Sofia';font-size: 22px;
+    background-color: rgba(5, 27, 63, 0.613);
+    color: aquamarine;
+}
+.full{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+}
+.header{
+    text-align: center;
+}
+.diceRoll{
+    display: flex;
+}
+.diceRoll .dice img{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px;
+    width: 150px;
+}
+.diceRoll .dice h6{
+   text-align: center;
+   font-size: 1.0rem;
+}
+.full p{
+    text-align: center;
+}
